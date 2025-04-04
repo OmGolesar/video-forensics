@@ -478,6 +478,7 @@ with tab4:
 # Add a footer
 st.markdown("---")
 st.markdown("*VidGuard - Advanced Video Forensics Tool. For investigative and educational purposes only.*")
+st.markdown("*Created by Om Golesar*")
 
 # Clean up temporary files when the session ends
 if 'video_path' in st.session_state:
